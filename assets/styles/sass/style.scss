@@ -1,0 +1,89 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  margin: 4rem;
+
+  form {
+    width: 35%;
+    display: grid;
+    place-items: center;
+
+    input {
+      width: 30%;
+      display: block;
+
+      &[type="submit"] {
+        background: aqua;
+        border: 1px solid;
+        padding: 0.5rem 1rem;
+        margin: 0.5rem 0;
+      }
+    }
+
+    .out {
+      display: grid;
+      place-items: center;
+      box-shadow: 0 5px 10px gray;
+      padding: 1rem;
+
+      h1 {
+        text-align: center;
+
+        .jan {
+          color: #7e58ff;
+        }
+
+        .feb {
+          color: #4c9ada;
+        }
+
+        .mar {
+          color: #f4014a;
+        }
+
+        .apr {
+          color: #9bff39;
+        }
+
+        .may {
+          color: #5b93ff;
+        }
+
+        .jun {
+          color: #c8cacb;
+        }
+
+        .jul {
+          color: #facf46;
+        }
+
+        .aug {
+          color: #4eed91;
+        }
+
+        .sep {
+          color: #4fe4ff;
+        }
+
+        .oct {
+          color: #8900b3;
+        }
+
+        .nov {
+          color: #f6825c;
+        }
+
+        .dec {
+          color: #a6580d;
+        }
+      }
+
+      p {
+        width: 50%;
+        line-height: 1.5rem;
+        margin: 0;
+      }
+    }
+  }
+}

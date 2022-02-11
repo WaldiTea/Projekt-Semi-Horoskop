@@ -1,0 +1,97 @@
+body {
+  font-family: sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 4rem;
+}
+
+body form {
+  width: 35%;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+body form input {
+  width: 30%;
+  display: block;
+}
+
+body form input[type="submit"] {
+  background: aqua;
+  border: 1px solid;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem 0;
+}
+
+body form .out {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  -webkit-box-shadow: 0 5px 10px gray;
+          box-shadow: 0 5px 10px gray;
+  padding: 1rem;
+}
+
+body form .out h1 {
+  text-align: center;
+}
+
+body form .out h1 .jan {
+  color: #7e58ff;
+}
+
+body form .out h1 .feb {
+  color: #4c9ada;
+}
+
+body form .out h1 .mar {
+  color: #f4014a;
+}
+
+body form .out h1 .apr {
+  color: #9bff39;
+}
+
+body form .out h1 .may {
+  color: #5b93ff;
+}
+
+body form .out h1 .jun {
+  color: #c8cacb;
+}
+
+body form .out h1 .jul {
+  color: #facf46;
+}
+
+body form .out h1 .aug {
+  color: #4eed91;
+}
+
+body form .out h1 .sep {
+  color: #4fe4ff;
+}
+
+body form .out h1 .oct {
+  color: #8900b3;
+}
+
+body form .out h1 .nov {
+  color: #f6825c;
+}
+
+body form .out h1 .dec {
+  color: #a6580d;
+}
+
+body form .out p {
+  width: 50%;
+  line-height: 1.5rem;
+  margin: 0;
+}
+/*# sourceMappingURL=style.css.map */
